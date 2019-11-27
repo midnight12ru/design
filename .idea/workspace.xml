@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67504808-6991-4ad2-80a5-eabcc00a4e79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Buttons/ButtonUI.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/ButtonsUI/ButtonUI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Buttons/ButtonUI.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/ButtonsUI/ButtonUI.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/CardUIVarta/CardUIVarta.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/CardUIVarta/CardUIVarta.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/CardUIVarta/CardUIVarta.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/CardUIVarta/CardUIVarta.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -91,6 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574793784716</updated>
       <workItem from="1574793786963" duration="7621000" />
+      <workItem from="1574881558089" duration="2445000" />
     </task>
     <servers />
   </component>
@@ -102,7 +97,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
