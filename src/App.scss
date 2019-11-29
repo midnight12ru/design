@@ -1,0 +1,14 @@
+.App{
+  height: 100%;
+}
+
+.header{
+  position: absolute;
+  width: 100%;
+}
+
+.main{
+  background: url("./res/img/bg-header.png") no-repeat center;
+  background-size: cover;
+  max-height: 640px;
+}

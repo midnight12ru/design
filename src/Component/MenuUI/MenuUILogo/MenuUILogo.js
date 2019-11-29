@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import './MenuUILogo.scss'
 
 export default class MenuUILogo extends Component{
     render() {
+        let {logo} = this.props;
+
+        console.log(this.props);
         return (
-            <h4 className={'MenuUI__logo'}>
-                MenuUILogo
-            </h4>
+            <Fragment>
+                {logo}
+            </Fragment>
         );
     }
 }
