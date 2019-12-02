@@ -1,9 +1,5 @@
-import React, {Component} from 'react'
-import MenuUI from "./Component/MenuUI/MenuUI";
-import MenuUILogo from "./Component/MenuUI/MenuUILogo/MenuUILogo";
-import MenuUIList from "./Component/MenuUI/MenuUIList/MenuUIList";
-import MenuUIListItem from "./Component/MenuUI/MenuUIList/MenuUIListItem/MenuUIListItem";
-import MenuUIContact from "./Component/MenuUI/MenuUIContact/MenuUIContact";
+import React, {Component, Fragment} from 'react';
+import {MenuUI, MenuUILogo, MenuUIListItem, MenuUIList, MenuUIContact} from './Component/MenuUI'
 import CardUI from "./Component/CardUI/CardUI";
 import CardUIVarta from "./Component/CardUIVarta/CardUIVarta";
 import ButtonUI from "./Component/ButtonsUI/ButtonUI";
@@ -13,7 +9,7 @@ import './App.scss'
 export default class App extends Component {
     render() {
         return (
-            <div className="App">
+            <Fragment>
                 <header className="header">
                     <MenuUI>
                         <MenuUILogo text logo={'Design'}/>
@@ -23,16 +19,18 @@ export default class App extends Component {
                         <MenuUIContact></MenuUIContact>
                     </MenuUI>
                 </header>
-                <main className="main">
-                    <section>
-                        <ul className="main__list">
-                            <li className="main__list_item"></li>
-                            <li className="main__list_item"></li>
-                            <li className="main__list_item"></li>
-                            <li className="main__list_item"></li>
-                            <li className="main__list_item"></li>
+                <div className="main">
+                    <section className='main__slider slider'>
+                        <ul className="slider__list">
+                            <li className="slider__list_item"></li>
+                            <li className="slider__list_item"></li>
+                            <li className="slider__list_item"></li>
+                            <li className="slider__list_item"></li>
+                            <li className="slider__list_item"></li>
                         </ul>
-                        <nav><span>1</span><span>1</span><span>1</span><span>1</span><span>1</span></nav>
+                        <nav className='slider__dots'>
+                            <span></span>
+                        </nav>
                     </section>
                     <section className="main__design">
                         <div className="wrap">
@@ -98,7 +96,7 @@ export default class App extends Component {
                             <ButtonUI/>
                         </div>
                     </section>
-                </main>
+                </div>
                 <footer className="footer">
                     <div className="wrap">
                         <div className="footer__col">
@@ -147,7 +145,7 @@ export default class App extends Component {
                     <hr/>
                     &copy;2017, Perfect Shapes Project
                 </footer>
-            </div>
+            </Fragment>
         );
     }
 }

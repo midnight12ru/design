@@ -1,14 +1,40 @@
-.App{
-  height: 100%;
-}
-
-.header{
+.header {
   position: absolute;
   width: 100%;
+  color: #fff;
 }
 
-.main{
+.slider {
   background: url("./res/img/bg-header.png") no-repeat center;
   background-size: cover;
   max-height: 640px;
+  height: 100vh;
+  position: relative;
+
+  &__list {
+    margin: 0;
+  }
+
+  &__dots {
+    position: absolute;
+    bottom: 46px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+
+    & > span {
+      border-width: 1.5px;
+      border-color: rgb(255, 255, 255);
+      border-style: solid;
+      border-radius: 50%;
+      opacity: 0.8;
+      width: 14px;
+      height: 14px;
+      display: inline-block;
+      margin: 0 7px;
+    }
+    & .active{
+        background-color: rgb(255, 61, 0);
+    }
+  }
 }
