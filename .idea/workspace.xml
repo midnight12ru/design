@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67504808-6991-4ad2-80a5-eabcc00a4e79" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="67504808-6991-4ad2-80a5-eabcc00a4e79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/MenuUI/MenuUIList/MenuUIList.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/MenuUI/MenuUIList/MenuUIList.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/MenuUI/MenuUIList/MenuUIListItem/MenuUIListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/MenuUI/MenuUIList/MenuUIListItem/MenuUIListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Component/MenuUI/MenuUIList/MenuUIListItem/MenuUIListItem.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Component/MenuUI/MenuUIList/MenuUIListItem/MenuUIListItem.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +34,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,18 +50,6 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -68,6 +66,18 @@
       <envs />
       <method v="2" />
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -87,6 +97,10 @@
       <workItem from="1575312792645" duration="85000" />
       <workItem from="1575312974900" duration="811000" />
       <workItem from="1575316695918" duration="2259000" />
+      <workItem from="1575394027921" duration="2358000" />
+      <workItem from="1575400411208" duration="73000" />
+      <workItem from="1575400918003" duration="98000" />
+      <workItem from="1575401055992" duration="613000" />
     </task>
     <servers />
   </component>
@@ -105,5 +119,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1575401062058">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575401062058" />
   </component>
 </project>
